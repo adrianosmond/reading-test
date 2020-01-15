@@ -1,0 +1,46 @@
+.form {
+  margin: 0 auto;
+  width: 100%;
+  max-width: 800px;
+}
+
+.section {
+  margin-top: 1rem;
+}
+
+.label {
+  margin-bottom: 0.5rem;
+}
+
+.example-text {
+  margin-top: 2rem;
+  text-align: center;
+}
+
+.start {
+  float: right;
+}
+
+textarea {
+  height: 50vh;
+  width: 100%;
+  font: inherit;
+  padding: 0.5rem;
+}
+
+input {
+  font: inherit;
+  padding: 0.5rem;
+}
+
+button {
+  font: inherit;
+  background-color: dodgerblue;
+  color: white;
+  padding: 0.5rem 1rem;
+  border: 0;
+}
+
+button:disabled {
+  background-color: gray;
+}
