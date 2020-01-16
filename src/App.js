@@ -4,6 +4,7 @@ import Test from './Test';
 import './App.css';
 
 const App = () => {
+  const [wordsStr, setWordsStr] = useState('');
   const [wordsArr, setWordsArr] = useState([]);
   const [fontSize, setFontSize] = useState(80);
   const [isTesting, setIsTesting] = useState(false);
@@ -22,6 +23,8 @@ const App = () => {
     <Form
       fontSize={fontSize}
       setFontSize={setFontSize}
+      wordsStr={wordsStr}
+      setWordsStr={setWordsStr}
       setWordsArr={setWordsArr}
       setIsTesting={setIsTesting}
     />

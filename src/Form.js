@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React from 'react';
 import './Form.css';
 
 const shuffle = a => {
@@ -10,9 +10,14 @@ const shuffle = a => {
   return shuffled;
 };
 
-const Form = ({ fontSize, setFontSize, setWordsArr, setIsTesting }) => {
-  const [wordsStr, setWordsStr] = useState('');
-
+const Form = ({
+  fontSize,
+  setFontSize,
+  setWordsArr,
+  wordsStr,
+  setWordsStr,
+  setIsTesting,
+}) => {
   const startTesting = () => {
     const shuffled = shuffle(wordsStr.trim().split('\n'));
     setWordsArr(shuffled);
