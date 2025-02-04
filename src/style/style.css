@@ -1,8 +1,13 @@
 @import 'tailwindcss';
 
+@font-face {
+  font-family: "Sassoon";
+  src: url("/sassoon-infant.otf") format("opentype");
+}
+
 body {
   margin: 0;
-  font-family: "Quicksand", sans-serif;
+  font-family: "Sassoon", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
